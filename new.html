@@ -1,0 +1,110 @@
+<?php
+mysql_connection('localhost','root','');
+
+mysql_select_db('admin');
+
+$sql="SELECT * FROM users";
+$records=mysql_query($sql);
+
+
+?>
+<html>
+  <head>
+  <title>conestogapizzeria</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+</head>
+	<body>
+<br>      
+	  
+     
+	  <img src="smiley.jpg" alt="Smiley face" width="150" height="150" align="right">
+      <img src="smiley1.jpg" alt="Smiley face" width="150" height="150" align="right">
+      <img src="smiley2.jpg" alt="Smiley face" width="150" height="150" align="right">
+	  <img src="smiley3.jpg" alt="Smiley face" width="150" height="150" align="right">
+	  <img src="smiley4.jpg" alt="Smiley face" width="150" height="150" align="right">
+      <img src="smiley5.jpg" alt="Smiley face" width="150" height="150" align="right">
+	  <img src="smiley6.jpg" alt="Smiley face" width="150" height="150" align="right">
+	  <img src="smiley7.jpg" alt="Smiley face" width="150" height="150" align="right">
+      <img src="smiley8.jpg" alt="Smiley face" width="140" height="150" align="right">
+	 
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Welcome to Conestoga Pizzeria</h1>
+    
+  </div>
+	<body>
+		
+				
+					<a href="bootstrap.html">Back</a>
+					<h2>WELCOME ADMIN</h2></div>
+					
+					
+					
+					<table class="table">
+					
+					<thead>
+							<tr>
+								<th><b>ID</b></th>
+								<th><b>Name</b></th>
+								<th><b>Date</b></th>
+								<th><b>Order Status</b></th>
+								<th><b>Orders</b></th>
+								
+								<th><b>Total</b></th>
+								<th><b>Payment Status</b></th>
+								
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>1</td>
+								<td>Angitha</td>
+				
+								<td>11/9/2015 12:32am</td>
+								<td>current</td>
+								<td>1 small pizza</td>
+								<td>3$</td>
+								<td>not paid</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Jomon</td>
+								<td>11/9/2015 12:30am </td>
+								<td>current</td>
+								<td>2 medium sliced pizza</td>
+								<td>6.54$</td>
+								<td>not paid</td>
+								</tr>
+								
+							<tr>
+							<td>3</td>
+								<td>Mariya</td>
+								<td>11/9/2015 12:00am </td>
+								<td>completed</td>
+								<td>2 medium sliced pizza and 1 coke</td>
+								<td>9.54$</td>
+								<td>paid</td>
+								
+							<tr>
+                                <td>4</td>
+								<td>Mathew</td>
+								<td>11/9/2015 10:30am </td>
+								<td>completed</td>
+								<td>2 medium sliced pizza</td>
+								<td>6.54$</td>
+								<td>paid</td>
+								
+														
+							</tr>
+							</tbody>
+							
+					</table>
+						
+	</body>
+</html>
